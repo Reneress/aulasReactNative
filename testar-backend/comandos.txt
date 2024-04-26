@@ -1,0 +1,17 @@
+Comando para entrar no PostGres
+
+psql -U postgres
+
+\l = listar databases
+
+CREATE DATABASE [nome do banco];
+
+\c [nome do banco] = conectar no banco
+
+\dt lista tabela do banco conectado
+
+\q = sair
+
+npx knex init = iniciar o knex
+
+npx knex migrate:make [nome da migração] = criar migração
